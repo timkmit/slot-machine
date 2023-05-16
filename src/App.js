@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import WheelOfFortune from "./components/WheelOfFortune/WheelOfFortune";
 
 const items = [
   "7️⃣",
@@ -126,6 +127,7 @@ boxes.forEach((box) => (box.innerText = "❓"));
 return (
 <div className="App">
 <header className="App-header">
+
 <h1>Слот-машина</h1>
 <p>
 Нажмите кнопку "Крутить", чтобы запустить машину.
